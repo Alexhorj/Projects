@@ -1,0 +1,13 @@
+CREATE TABLE 'products' (
+	'id' int(11) NOT NULL AUTO_INCREMENT,
+	'name' varchar(100) NOT NULL,
+	'image' varchar(100) NOT NULL,
+	'price' float NOT NULL,
+	PRIMARY KEY (id)
+	);
+
+	INSERT INFO 'products'('id', 'name', 'price', 'imange') VALUES
+	(1, 'UMP 45', 399,99 , 'UMP 45.JPG' ),
+	(2, 'Deagle', 150 , 'Deagle.jpg'),
+	(3, 'Dan Weasson', 247,88 , 'DanW.png'),
+	(4, 'Awp Sniper', 699.40, 'Awp.png');
